@@ -2,15 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(rgba(16, 66, 241, 0.98) 74%, rgba(23, 23, 23, 0.81) 100%);
-}
-.EventProduct
-{
-    display:flex;
-    flex-direction: column;
-    height: 200px;
-    width: 200px;
-    padding-top: 10px;
+    background-color: #00F0FF;
 }
 .Name_Shop
 {
@@ -24,18 +16,11 @@
     line-height: 77px; 
     color: #00F0FF;
 }
-.Div_EventProduct
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 .main_image {
     margin: 30px 0px;
     height: 100px;
     width: 150px;
 }
-
 .main_container {
     background-color: white;
     border: 1px;
@@ -62,35 +47,42 @@
     height: 400px;
     max-width: 2700px;
 }
-.footer
+.Line
 {
-    justify-content: space-around;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 200px;
-    background: rgba(23, 23, 23, 0.5);
+    width: 1655.01px;
+    height: 0px;
+    border: 1px solid #000000;
+    transform: rotate(0.21deg);
 }
-.Footer_ShopName
+.Cart_Label
 {
-    margin-top: 30px;
-    margin-left: 40px;
-    font-size: 35px;
+    font-family: 'Inter';
+    font-style: normal;
 }
-.NameIcon
+.Cart
 {
-display: flex;
-flex-direction: column;
-}
-.About
-{
-    margin-top: 30px;
-
     display: flex;
     flex-direction: column;
 }
-.Icon
+.Cart_Item
 {
-    display:flex;
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+.Item_Img
+{
+    width: 10%;
+}
+.Line2
+{
+position: absolute;
+width: 1169.02px;
+height: 0px;
+left: 1217px;
+top: 429px;
+
+border: 1px solid #000000;
+transform: rotate(90.34deg);
+
 }
